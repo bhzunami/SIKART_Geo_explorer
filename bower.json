@@ -19,6 +19,7 @@
   "dependencies": {
     "d3": "~3.5.17",
     "topojson": "~1.6.26",
-    "bootstrap": "~3.3.6"
+    "bootstrap": "~3.3.6",
+    "Chart.js": "~2.1.4"
   }
 }
