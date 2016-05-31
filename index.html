@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+<body>
+<div class="navbar" role="navigation">
+    <div class="navbar-header">
+        <!-- Responsive design -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand active" href="/"><img src="images/logo_sik.gif" id="navlogo"></a>
+    </div>
+</div>
+
+<div class="container">
+
+    <!-- SUBNAV --> 
+    <div class="row">
+        <div class="col-md-12" id="subnav">
+            <ul>
+                <li><a href = "#">Login</a> </li> 
+                <li class="language"><a href = "#">DE</a> </li>  
+                <li class="language"><a href = "#">FR</a></li>  
+                <li class="language"><a href = "#">IT</a></li>  
+                <li class="language"><a href = "#">EN</a></li> 
+            </ul>
+        </div>
+    </div>
+
+    <!-- TITLEBAR --> 
+    <div class="row">
+        <div class="col-md-12 grey_bg" id="titlebar">
+            <h1>Swiss Geo Art Explorer</h1>
+        </div>
+    </div>    
+
+
+    <!-- MAP --> 
+    <div class="row">
+        <div class="col-md-8 swiss_map map"/>
+    </div>
+
+    <!-- BAR Chart -->
+    <div class="row">
+        <div class="col-md-4">
+            <h2 id="detail_name"> </h2>
+            <canvas id="barChart" width="400" height="400"></canvas>
+        </div>
+    </div>
+
+</div> <!-- End div for container -->
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="bower_components/Chart.js/dist/Chart.min.js"></script>
+<script src="bower_components/d3/d3.js"></script>
+<script src="bower_components/topojson/topojson.js"></script>
+<script src="js/data.js"></script>
+<script src="js/map.js"></script>
+</body>
+</html>
