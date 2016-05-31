@@ -1,0 +1,15 @@
+======================
+INSTALLATION
+======================
+
+bower install
+
+python3 -m http.server
+
+or
+python2 -m SimpleHTTPServer
+
+
+Open Browser
+http://localhost:8000
+
